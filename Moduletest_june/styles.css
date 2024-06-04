@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Change background to black */
+    margin: 0;
+    padding: 0;
+    color: white; /* Change text color to white for readability */
+}
+
+h2 {
+    text-align: left;
+    margin: 20px ;
+    color: white; /* Heading color white */
+}
+
+.container {
+    width: 97%;
+    margin: 0 auto;
+    background: #CDCDCD; /* Dark background for container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    font-size: 24px;
+    margin-right: 20px;
+    width: 85%; /* Adjusted width of the search bar */
+    padding-left: 20px;
+    border: 1px solid black;
+    background: #D9D9D9;
+   
+}
+
+#searchButton {
+    width: 14%;
+    font-size: 24px;
+    padding: 20px 40px;
+    border: none;
+    background: #000; /* Black background for button */
+    color: white; /* White text for button */
+    
+    cursor: pointer;
+    margin-left: -1px; /* Negative margin to overlap border */
+}
+
+#searchButton:hover {
+    background: #333; /* Slightly lighter black for hover effect */
+}
+
+.button-container {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    width: 14%;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    background: #000; /* Black background for buttons */
+    color: white; /* White text for buttons */
+    
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background: #333; /* Slightly lighter black for hover effect */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #D9D9D9; /* White background for the table */
+    color: black; /* Black text for the table */
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
